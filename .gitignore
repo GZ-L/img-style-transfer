@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# User-provided and third-party visual references must stay local.
+templates/**/*.png
+templates/**/*.jpg
+templates/**/*.jpeg
+templates/**/*.webp
+templates/**/*.gif
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.gif
+
+# Generated output and local configuration.
+output/
+generated/
+*.zip
+.env
+.env.*
