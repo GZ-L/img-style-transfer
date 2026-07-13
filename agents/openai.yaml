@@ -1,0 +1,4 @@
+interface:
+  display_name: Image Style Transfer
+  short_description: Turn approved content or references into a coherent carousel
+  default_prompt: Use $img-style-transfer to produce a template-consistent image series from the supplied content or approved handoff.

@@ -1,0 +1,18 @@
+{
+  "title": "IMG_STYLE_TRANSFER_HANDOFF_V2",
+  "type": "object",
+  "required": ["schema", "contract_version", "handoff_id", "platform", "approval_status", "content", "locked_facts", "pages", "assets", "style", "compliance_report"],
+  "properties": {
+    "schema": {"const": "IMG_STYLE_TRANSFER_HANDOFF_V2"},
+    "contract_version": {"const": "2.0"},
+    "handoff_id": {"type": "string"},
+    "platform": {"enum": ["xiaohongshu"]},
+    "approval_status": {"enum": ["approved", "needs_content_approval"]},
+    "content": {"type": "object"},
+    "locked_facts": {"type": "array"},
+    "pages": {"type": "array", "minItems": 1},
+    "assets": {"type": "array"},
+    "style": {"type": "object"},
+    "compliance_report": {"type": "object"}
+  }
+}
